@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rodrigo/Projects/NetCore/Gaia/Accesses/Users/Accesses.Users.Domain/Accesses.Users.Domain.fsproj": {}
+  },
+  "projects": {
+    "/home/rodrigo/Projects/NetCore/Gaia/Accesses/Users/Accesses.Users.Domain/Accesses.Users.Domain.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rodrigo/Projects/NetCore/Gaia/Accesses/Users/Accesses.Users.Domain/Accesses.Users.Domain.fsproj",
+        "projectName": "Accesses.Users.Domain",
+        "projectPath": "/home/rodrigo/Projects/NetCore/Gaia/Accesses/Users/Accesses.Users.Domain/Accesses.Users.Domain.fsproj",
+        "packagesPath": "/home/rodrigo/.nuget/packages/",
+        "outputPath": "/home/rodrigo/Projects/NetCore/Gaia/Accesses/Users/Accesses.Users.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rodrigo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/Commons.Kafka.fsproj": {
+                "projectPath": "/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/Commons.Kafka.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Systemd": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/Commons.Kafka.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/Commons.Kafka.fsproj",
+        "projectName": "Commons.Kafka",
+        "projectPath": "/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/Commons.Kafka.fsproj",
+        "packagesPath": "/home/rodrigo/.nuget/packages/",
+        "outputPath": "/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rodrigo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Pulsar.Client": {
+              "target": "Package",
+              "version": "[0.13.0, )"
+            },
+            "TaskBuilder.fs": {
+              "target": "Package",
+              "version": "[2.2.0-alpha, )"
+            },
+            "Utf8Json": {
+              "target": "Package",
+              "version": "[1.3.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

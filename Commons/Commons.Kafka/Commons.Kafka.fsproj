@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Enum\Status.fs" />
+        <Compile Include="Model\Event.fs" />
+        <Compile Include="Serialization\Newtonsoft.fs" />
+        <Compile Include="Api\Producer.fs" />
+        <Compile Include="Api\Consumer.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+      <PackageReference Include="Pulsar.Client" Version="0.13.0" />
+      <PackageReference Include="TaskBuilder.fs" Version="2.2.0-alpha" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>Accesses.Users.Consumer</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Settings.fs" />
+        <Compile Include="Worker.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="3.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Commons\Commons.Kafka\Commons.Kafka.fsproj" />
+      <ProjectReference Include="..\Accesses.Users.Infra.Data\Accesses.Users.Infra.Data.fsproj" />
+    </ItemGroup>
+
+</Project>

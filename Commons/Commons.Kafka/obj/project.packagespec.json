@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/Commons.Kafka.fsproj",
+    "projectName": "Commons.Kafka",
+    "projectPath": "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/Commons.Kafka.fsproj",
+    "outputPath": "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "FSharp.Core": {
+          "target": "Package",
+          "version": "[4.7.0, )"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.3, )"
+        },
+        "Pulsar.Client": {
+          "target": "Package",
+          "version": "[0.13.0, )"
+        },
+        "TaskBuilder.fs": {
+          "target": "Package",
+          "version": "[2.2.0-alpha, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+    }
+  }
+}

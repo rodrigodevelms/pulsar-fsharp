@@ -1,0 +1,16 @@
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Data/bin/Debug/netcoreapp3.1/Commons.Infra.Data.deps.json
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Data/bin/Debug/netcoreapp3.1/Commons.Infra.Data.dll
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Data/bin/Debug/netcoreapp3.1/Commons.Infra.Data.pdb
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Data/obj/Debug/netcoreapp3.1/Commons.Infra.Data.fsprojAssemblyReference.cache
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Data/obj/Debug/netcoreapp3.1/Commons.Infra.Data.AssemblyInfoInputs.cache
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Data/obj/Debug/netcoreapp3.1/Commons.Infra.Data.AssemblyInfo.fs
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Data/obj/Debug/netcoreapp3.1/Commons.Infra.Data.dll
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Data/obj/Debug/netcoreapp3.1/Commons.Infra.Data.pdb
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/bin/Debug/netcoreapp3.1/Commons.Infra.Data.deps.json
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/bin/Debug/netcoreapp3.1/Commons.Infra.Data.dll
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/bin/Debug/netcoreapp3.1/Commons.Infra.Data.pdb
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/obj/Debug/netcoreapp3.1/Commons.Infra.Data.fsprojAssemblyReference.cache
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/obj/Debug/netcoreapp3.1/Commons.Infra.Data.AssemblyInfoInputs.cache
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/obj/Debug/netcoreapp3.1/Commons.Infra.Data.AssemblyInfo.fs
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/obj/Debug/netcoreapp3.1/Commons.Infra.Data.dll
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/obj/Debug/netcoreapp3.1/Commons.Infra.Data.pdb

@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Migration/Commons.Infra.Migration.fsproj": {}
+  },
+  "projects": {
+    "/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Migration/Commons.Infra.Migration.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Migration/Commons.Infra.Migration.fsproj",
+        "projectName": "Commons.Infra.Migration",
+        "projectPath": "/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Migration/Commons.Infra.Migration.fsproj",
+        "packagesPath": "/home/rodrigo/.nuget/packages/",
+        "outputPath": "/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Infra.Migration/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rodrigo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "dbup-postgresql": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

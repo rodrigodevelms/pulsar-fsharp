@@ -1,0 +1,81 @@
+version: "3"
+services:
+  pulsar:
+    image: apachepulsar/pulsar
+    hostname: pulsar
+    container_name: pulsar
+    environment: 
+      - PULSAR_MEM=" -Xms512m -Xmx512m -XX:MaxDirectMemorySize=1g"
+    command: >
+      /bin/bash -c
+      "bin/apply-config-from-env.py conf/standalone.conf
+      && bin/pulsar standalone"
+    ports:
+      - "6650:6650"
+      - "8080:8080"
+    volumes:
+      - ./pulsar-volume:/pulsar/data
+    networks:
+      - pulsarnet
+    
+  dashboard:
+    image: apachepulsar/pulsar-dashboard
+    hostname: dashboard
+    container_name: dashboard
+    depends_on:
+      - pulsar
+    ports:
+      - "80:80"
+    networks:
+      - pulsarnet
+    environment:
+      - SERVICE_URL=http://pulsar:8080
+    networks:
+      - pulsarnet
+  
+  postgres:
+    image: postgres:12-alpine
+    hostname: postgres-pulsar
+    container_name: postgres-pulsar
+    environment:
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_USER: "postgres"
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./scripts/db.sql:/docker-entrypoint-initdb.d/db.sql
+      - ./postgres-data:/var/lib/postgresql/data
+    networks:
+      - pulsarnet
+
+  pulsar-manager:
+    image: apachepulsar/pulsar-manager:v0.1.0
+    hostname: pulsar-manager
+    container_name: pulsar-manager
+    environment:
+      REDIRECT_HOST: "localhost"
+      REDIRECT_PORT: "9527"
+      DRIVER_CLASS_NAME: "org.postgresql.Driver"
+      URL: "jdbc:postgresql://postgres:5432/pulsar_manager"
+      USERNAME: "postgres"
+      PASSWORD: "postgres"
+      USER: "root"
+      LOG_LEVEL: DEBUG
+    ports:
+      - "9527:9527"
+    depends_on:
+      - pulsar
+      - postgres
+    networks:
+      - pulsarnet
+    volumes:
+      - ./pulsar-manager-volume:/data
+
+volumes:
+    pulsar-volume:
+    postgres-volume:
+    pulsar-manager-volume:
+
+networks:
+  pulsarnet:
+    driver: bridge

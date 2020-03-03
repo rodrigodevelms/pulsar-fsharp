@@ -1,0 +1,16 @@
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Messages/bin/Debug/netcoreapp3.1/Commons.Messages.deps.json
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Messages/bin/Debug/netcoreapp3.1/Commons.Messages.dll
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Messages/bin/Debug/netcoreapp3.1/Commons.Messages.pdb
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Messages/obj/Debug/netcoreapp3.1/Commons.Messages.fsprojAssemblyReference.cache
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Messages/obj/Debug/netcoreapp3.1/Commons.Messages.AssemblyInfoInputs.cache
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Messages/obj/Debug/netcoreapp3.1/Commons.Messages.AssemblyInfo.fs
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Messages/obj/Debug/netcoreapp3.1/Commons.Messages.dll
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Messages/obj/Debug/netcoreapp3.1/Commons.Messages.pdb
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Messages/bin/Debug/netcoreapp3.1/Commons.Messages.deps.json
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Messages/bin/Debug/netcoreapp3.1/Commons.Messages.dll
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Messages/bin/Debug/netcoreapp3.1/Commons.Messages.pdb
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Messages/obj/Debug/netcoreapp3.1/Commons.Messages.fsprojAssemblyReference.cache
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Messages/obj/Debug/netcoreapp3.1/Commons.Messages.AssemblyInfoInputs.cache
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Messages/obj/Debug/netcoreapp3.1/Commons.Messages.AssemblyInfo.fs
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Messages/obj/Debug/netcoreapp3.1/Commons.Messages.dll
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Messages/obj/Debug/netcoreapp3.1/Commons.Messages.pdb

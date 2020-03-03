@@ -1,0 +1,243 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rodrigo/Projects/mine/apagar/Accesses/Users/Accesses.Users.Consumer/Accesses.Users.Consumer.fsproj": {}
+  },
+  "projects": {
+    "/home/rodrigo/Projects/mine/apagar/Accesses/Users/Accesses.Users.Consumer/Accesses.Users.Consumer.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rodrigo/Projects/mine/apagar/Accesses/Users/Accesses.Users.Consumer/Accesses.Users.Consumer.fsproj",
+        "projectName": "Accesses.Users.Consumer",
+        "projectPath": "/home/rodrigo/Projects/mine/apagar/Accesses/Users/Accesses.Users.Consumer/Accesses.Users.Consumer.fsproj",
+        "packagesPath": "/home/rodrigo/.nuget/packages/",
+        "outputPath": "/home/rodrigo/Projects/mine/apagar/Accesses/Users/Accesses.Users.Consumer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rodrigo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/rodrigo/Projects/mine/apagar/Accesses/Users/Accesses.Users.Infra.Data/Accesses.Users.Infra.Data.fsproj": {
+                "projectPath": "/home/rodrigo/Projects/mine/apagar/Accesses/Users/Accesses.Users.Infra.Data/Accesses.Users.Infra.Data.fsproj"
+              },
+              "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/Commons.Kafka.fsproj": {
+                "projectPath": "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/Commons.Kafka.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Systemd": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rodrigo/Projects/mine/apagar/Accesses/Users/Accesses.Users.Infra.Data/Accesses.Users.Infra.Data.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rodrigo/Projects/mine/apagar/Accesses/Users/Accesses.Users.Infra.Data/Accesses.Users.Infra.Data.fsproj",
+        "projectName": "Accesses.Users.Infra.Data",
+        "projectPath": "/home/rodrigo/Projects/mine/apagar/Accesses/Users/Accesses.Users.Infra.Data/Accesses.Users.Infra.Data.fsproj",
+        "packagesPath": "/home/rodrigo/.nuget/packages/",
+        "outputPath": "/home/rodrigo/Projects/mine/apagar/Accesses/Users/Accesses.Users.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rodrigo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/Commons.Infra.Data.fsproj": {
+                "projectPath": "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/Commons.Infra.Data.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/Commons.Infra.Data.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/Commons.Infra.Data.fsproj",
+        "projectName": "Commons.Infra.Data",
+        "projectPath": "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/Commons.Infra.Data.fsproj",
+        "packagesPath": "/home/rodrigo/.nuget/packages/",
+        "outputPath": "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rodrigo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Npgsql.FSharp": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/Commons.Kafka.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/Commons.Kafka.fsproj",
+        "projectName": "Commons.Kafka",
+        "projectPath": "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/Commons.Kafka.fsproj",
+        "packagesPath": "/home/rodrigo/.nuget/packages/",
+        "outputPath": "/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rodrigo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Pulsar.Client": {
+              "target": "Package",
+              "version": "[0.13.0, )"
+            },
+            "TaskBuilder.fs": {
+              "target": "Package",
+              "version": "[2.2.0-alpha, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

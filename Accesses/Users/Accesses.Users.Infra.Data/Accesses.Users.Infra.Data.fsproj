@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Entity\Client.fs" />
+        <Compile Include="Query.fs" />
+        <Compile Include="Repository.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Commons\Commons.Infra.Data\Commons.Infra.Data.fsproj" />
+    </ItemGroup>
+
+</Project>

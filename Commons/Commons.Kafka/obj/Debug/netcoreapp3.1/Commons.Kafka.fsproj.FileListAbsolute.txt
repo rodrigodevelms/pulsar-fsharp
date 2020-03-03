@@ -1,0 +1,16 @@
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/bin/Debug/netcoreapp3.1/Commons.Kafka.deps.json
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/bin/Debug/netcoreapp3.1/Commons.Kafka.dll
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/bin/Debug/netcoreapp3.1/Commons.Kafka.pdb
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/obj/Debug/netcoreapp3.1/Commons.Kafka.fsprojAssemblyReference.cache
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/obj/Debug/netcoreapp3.1/Commons.Kafka.AssemblyInfoInputs.cache
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/obj/Debug/netcoreapp3.1/Commons.Kafka.AssemblyInfo.fs
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/obj/Debug/netcoreapp3.1/Commons.Kafka.dll
+/home/rodrigo/Projects/NetCore/Gaia/Commons/Commons.Kafka/obj/Debug/netcoreapp3.1/Commons.Kafka.pdb
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/bin/Debug/netcoreapp3.1/Commons.Kafka.deps.json
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/bin/Debug/netcoreapp3.1/Commons.Kafka.dll
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/bin/Debug/netcoreapp3.1/Commons.Kafka.pdb
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/obj/Debug/netcoreapp3.1/Commons.Kafka.fsprojAssemblyReference.cache
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/obj/Debug/netcoreapp3.1/Commons.Kafka.AssemblyInfoInputs.cache
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/obj/Debug/netcoreapp3.1/Commons.Kafka.AssemblyInfo.fs
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/obj/Debug/netcoreapp3.1/Commons.Kafka.dll
+/home/rodrigo/Projects/mine/apagar/Commons/Commons.Kafka/obj/Debug/netcoreapp3.1/Commons.Kafka.pdb

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Gaia.-666115202.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Accesses" t="Include">
+        <e p="Users" t="Include">
+          <e p="Accesses.Users.Consumer" t="IncludeRecursive">
+            <e p="Accesses.Users.Consumer.fsproj" t="IncludeRecursive" />
+            <e p="Program.fs" t="Include" />
+            <e p="Settings.fs" t="Include" />
+            <e p="Worker.fs" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="obj" t="ExcludeRecursive" />
+          </e>
+          <e p="Accesses.Users.Infra.Data" t="IncludeRecursive">
+            <e p="Accesses.Users.Infra.Data.fsproj" t="IncludeRecursive" />
+            <e p="Entity" t="Include">
+              <e p="Client.fs" t="Include" />
+            </e>
+            <e p="Query.fs" t="Include" />
+            <e p="Repository.fs" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="obj" t="ExcludeRecursive" />
+          </e>
+          <e p="Accesses.Users.Infra.Migration" t="IncludeRecursive">
+            <e p="Accesses.Users.Infra.Migration.fsproj" t="IncludeRecursive" />
+            <e p="Program.fs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="001_create_schema.sql" t="Include" />
+              <e p="002_create_table.sql" t="Include" />
+            </e>
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="config.json" t="Include" />
+            <e p="obj" t="ExcludeRecursive" />
+          </e>
+          <e p="Accesses.Users.Orchestration/src/Accesses.Users.Orchestration" t="IncludeRecursive">
+            <e p="Accesses.Users.Orchestration.fsproj" t="IncludeRecursive" />
+            <e p="Controller.fs" t="Include" />
+            <e p="Handler.fs" t="Include" />
+            <e p="Program.fs" t="Include" />
+            <e p="Settings.fs" t="Include" />
+            <e p="Startup.fs" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="obj" t="ExcludeRecursive" />
+            <e p="web.config" t="Include" />
+          </e>
+          <e p="Consumer" t="Include" />
+          <e p="Infra" t="Include">
+            <e p="Data" t="Include" />
+            <e p="Migration" t="Include" />
+          </e>
+          <e p="Orchestration" t="Include" />
+        </e>
+      </e>
+      <e p="Commons" t="Include">
+        <e p="Commons.Infra.Data" t="IncludeRecursive">
+          <e p="Commons.Infra.Data.fsproj" t="IncludeRecursive" />
+          <e p="Library.fs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="Commons.Kafka" t="IncludeRecursive">
+          <e p="Api" t="Include">
+            <e p="Consumer.fs" t="Include" />
+            <e p="Producer.fs" t="Include" />
+          </e>
+          <e p="Commons.Kafka.fsproj" t="IncludeRecursive" />
+          <e p="Enum" t="Include">
+            <e p="Status.fs" t="Include" />
+          </e>
+          <e p="Model" t="Include">
+            <e p="Event.fs" t="Include" />
+          </e>
+          <e p="Serialization" t="Include">
+            <e p="Newtonsoft.fs" t="Include" />
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="Commons.Messages" t="IncludeRecursive">
+          <e p="Commons.Messages.fsproj" t="IncludeRecursive" />
+          <e p="Error.fs" t="Include" />
+          <e p="Library.fs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive" />
+        </e>
+        <e p="Infra" t="Include">
+          <e p="Data" t="Include" />
+        </e>
+        <e p="Kafka" t="Include" />
+        <e p="Messages" t="Include" />
+      </e>
+      <e p="Gaia.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
