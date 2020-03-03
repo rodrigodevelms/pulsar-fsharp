@@ -1,5 +1,5 @@
 
-This is a program that the Pulsar messaging system<br>
+This is a program that uses Pulsar for messaging<br>
 
 Follows the following flow<br>
 
