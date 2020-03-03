@@ -10,36 +10,36 @@ FrontEnd ->
   The Orchestrator API consumes the response and sends it to the frontend via socket (not yet implemented)
 End
 
-1 - Inside the folder Docker, do on terminal : docker-compose up -d
-2 - Run "Accesses.Users.Migrations" to create schemas and tables
-3 - Run "Accesses.Users.Orchestration"  and open Postman (or Insomnia) and
-        do a POST request: "http://localhost:5000/api/accesses/users/" with the follow body:
-        {   	
-            "id" : uuid,
-            "name" : string,	
-            "active" : boolean,
-            "address" : uuid
+1 - Inside the folder Docker, do on terminal : docker-compose up -d\newline  
+2 - Run "Accesses.Users.Migrations" to create schemas and tables\newline  
+3 - Run "Accesses.Users.Orchestration"  and open Postman (or Insomnia) and\newline  
+        do a POST request: "http://localhost:5000/api/accesses/users/" with the\newline   follow body:\newline  
+        {\newline   	
+            "id" : uuid,\newline  
+            "name" : string,\newline	  
+            "active" : boolean,\newline  
+            "address" : uuid\newline
 
-        }
-4 - Run "Accesses.Users.Consumer" to consume the message and insert on database.
-5 - To see the response, on terminal do :
-     - docker-compose exec pulsar bash
-     - cd bin/
-     - ./pulsar-client consume response-insert-client -s "some-name-here" -n 0
+        }\newline
+4 - Run "Accesses.Users.Consumer" to consume the message and insert on database.\newline
+5 - To see the response, on terminal do :\newline
+     - docker-compose exec pulsar bash\newline
+     - cd bin/\newline
+     - ./pulsar-client consume response-insert-client -s "some-name-here" -n 0\newline
 
     
 
-Thanks to the entire F# community in particular to:
+Thanks to the entire F# community in particular to:\newline
 
-@lanayx 
-@vorotato 
-@chethusk 
-@dave.curylo 
-@Zaid Ajaj 
-@pat 
-@Elliott V. Brown 
-@Christopher Pritchard 
-@sandeepc24 
+@lanayx \newline
+@vorotato \newline
+@chethusk \newline
+@dave.curylo \newline
+@Zaid Ajaj \newline
+@pat \newline
+@Elliott V. Brown \newline
+@Christopher Pritchard \newline
+@sandeepc24 \newline
 
-You helped me understand F # better.
-Thanks.
+You helped me understand F # better.\newline
+Thanks.\newline

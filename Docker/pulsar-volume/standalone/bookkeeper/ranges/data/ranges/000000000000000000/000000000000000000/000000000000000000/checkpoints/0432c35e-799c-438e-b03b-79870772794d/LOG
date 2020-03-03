@@ -535,3 +535,14 @@
 2020/03/03-20:37:33.591639 7fd0e8918700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
 2020/03/03-20:37:33.592022 7fd0e8918700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
 2020/03/03-20:37:33.592041 7fd0e8918700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/03/03-20:37:33.594513 7fd0e8918700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/03/03-20:37:33.594531 7fd0e8918700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 3
+2020/03/03-20:52:33.585051 7fd0e8918700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/standalone/bookkeeper/ranges/data/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/9a88cea6-4474-4d63-9eaf-cbfa62058c83
+2020/03/03-20:52:33.585116 7fd0e8918700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/standalone/bookkeeper/ranges/data/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/9a88cea6-4474-4d63-9eaf-cbfa62058c83.tmp
+2020/03/03-20:52:33.585221 7fd0e8918700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/03/03-20:52:33.585626 7fd0e8918700 [utilities/checkpoint/checkpoint_impl.cc:87] Hard Linking /000009.sst
+2020/03/03-20:52:33.585682 7fd0e8918700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000004
+2020/03/03-20:52:33.588704 7fd0e8918700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000008
+2020/03/03-20:52:33.591827 7fd0e8918700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/03/03-20:52:33.592183 7fd0e8918700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/03/03-20:52:33.592198 7fd0e8918700 [db/db_filesnapshot.cc:57] File Deletions Enabled
