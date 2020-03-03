@@ -1,7 +1,9 @@
 
-This is a program that the Pulsar messaging system
-Follows the following flow
+This is a program that the Pulsar messaging system<br>
 
+Follows the following flow<br>
+
+```
 FrontEnd -> 
   sends a request to the Orchestrator API -> 
   sends a message to Pulsar -> 
@@ -9,37 +11,42 @@ FrontEnd ->
   And sends a success or error message to Pulsar -> 
   The Orchestrator API consumes the response and sends it to the frontend via socket (not yet implemented)
 End
+```
 
-1 - Inside the folder Docker, do on terminal : docker-compose up -d\newline  
-2 - Run "Accesses.Users.Migrations" to create schemas and tables\newline  
-3 - Run "Accesses.Users.Orchestration"  and open Postman (or Insomnia) and\newline  
-        do a POST request: "http://localhost:5000/api/accesses/users/" with the\newline   follow body:\newline  
-        {\newline   	
-            "id" : uuid,\newline  
-            "name" : string,\newline	  
-            "active" : boolean,\newline  
-            "address" : uuid\newline
-
-        }\newline
-4 - Run "Accesses.Users.Consumer" to consume the message and insert on database.\newline
-5 - To see the response, on terminal do :\newline
-     - docker-compose exec pulsar bash\newline
-     - cd bin/\newline
-     - ./pulsar-client consume response-insert-client -s "some-name-here" -n 0\newline
+1 - Inside the folder Docker, do on terminal : docker-compose up -d<br>  
+2 - Run "Accesses.Users.Migrations" to create schemas and tables\newline <br>
+3 - Run "Accesses.Users.Orchestration"  and open Postman (or Insomnia) and\newline<br>  
+        do a POST request: "http://localhost:5000/api/accesses/users/" with the<br>   follow body:<br>  
+```
+        {	
+            "id" : uuid,  
+            "name" : string,	  
+            "active" : boolean,  
+            "address" : uuid
+        }
+```
+				
+4 - Run "Accesses.Users.Consumer" to consume the message and insert on database.<br>
+5 - To see the response, on terminal do :<br>
+     - docker-compose exec pulsar bash<br>
+     - cd bin/<br>
+     - ./pulsar-client consume response-insert-client -s "some-name-here" -n 0<br>
 
     
 
-Thanks to the entire F# community in particular to:\newline
+Thanks to the entire F# community in particular to:<br>
 
-@lanayx \newline
-@vorotato \newline
-@chethusk \newline
-@dave.curylo \newline
-@Zaid Ajaj \newline
-@pat \newline
-@Elliott V. Brown \newline
-@Christopher Pritchard \newline
-@sandeepc24 \newline
+```
+@lanayx 
+@vorotato 
+@chethusk 
+@dave.curylo
+@Zaid Ajaj 
+@pat 
+@Elliott V. Brown 
+@Christopher Pritchard 
+@sandeepc24 
+```
 
-You helped me understand F # better.\newline
-Thanks.\newline
+You helped me understand F # better.<br>
+Thanks.
