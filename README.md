@@ -42,6 +42,7 @@ Thanks to the entire F# community in particular to:<br>
 @chethusk 
 @dave.curylo
 @Zaid Ajaj 
+@foggyfinder 
 @pat 
 @Elliott V. Brown 
 @Christopher Pritchard 
