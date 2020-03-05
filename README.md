@@ -15,7 +15,7 @@ End
 
 1 - Inside the folder Docker, do on terminal : docker-compose up -d<br>  
 2 - Run "Accesses.Users.Migrations" to create schemas and tables\newline <br>
-3 - Run "Accesses.Users.Orchestration"  and open Postman (or Insomnia) and\newline<br>  
+3 - Run "Accesses.Users.Orchestration"  and open Postman (or Insomnia) and<br>  
         do a POST request: "http://localhost:5000/api/accesses/users/" with the<br>   follow body:<br>  
 ```
         {	
