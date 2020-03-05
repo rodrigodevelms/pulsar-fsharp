@@ -1,7 +1,7 @@
 
 This is a program that uses Pulsar for messaging<br>
 
-Follows the following flow<br>
+The flow<br>
 
 ```
 FrontEnd -> 
